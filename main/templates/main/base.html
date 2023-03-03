@@ -10,13 +10,14 @@
 
     </head>
     <body>
-        <div class="row">
-            <div class="col-12">
-                {% block header %}
-                {% endblock %}
-            </div>
-        </div>
+        <header>
+            {% block header %}
+            {% endblock %}
+        </header>
         {% block content %}
         {% endblock %}
+        <footer>
+            <p>contact</p>
+        </footer>
     </body>
 </html>
