@@ -83,3 +83,12 @@ footer {
     clear: both;
     display: table;
 }
+
+.project {
+    transition: .2s;
+    transform-origin: 50% 50%;
+}
+
+.project:hover {
+    transform: scale(1.2);
+}
