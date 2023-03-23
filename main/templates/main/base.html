@@ -9,8 +9,21 @@
         <link rel="stylesheet" href="static/style.css">
 
     </head>
-    <body>
+    <body id="border">
         <header>
+            <svg width=100% height="55">
+                <linearGradient id="myLinearGradient">
+                    <stop offset="1%" stop-color="black" />
+                    <stop offset="50%" stop-color="rgba(122, 241, 241, .4)" />
+                    <stop offset="95%" stop-color="rgba(122, 241, 241, 0)" />
+                </linearGradient>
+                <rect x="0" y="0" width=95% height="4" fill="url(#myLinearGradient)"
+                style="opacity: 75%" />
+                <rect x="0" y="20" width=75% height="4" fill="url(#myLinearGradient)"
+                style="opacity: 75%" />
+                <rect x="0" y="40" width=55% height="4" fill="url(#myLinearGradient)"
+                style="opacity: 75%" />
+            </svg>
             {% block header %}
             {% endblock %}
         </header>
