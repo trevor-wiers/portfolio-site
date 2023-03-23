@@ -84,11 +84,11 @@ footer {
     display: table;
 }
 
-.project {
+.button {
     transition: .2s;
     transform-origin: 50% 50%;
 }
 
-.project:hover {
-    transform: scale(1.2);
+.button:hover {
+    transform: scale(1.1);
 }
