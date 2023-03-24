@@ -12,6 +12,7 @@ body {
     flex-direction: column;
     overflow: auto;
     color: lightcyan;
+    font-family: sans-serif;
 }
 
 #border {
