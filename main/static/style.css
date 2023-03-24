@@ -1,5 +1,5 @@
 html {
-    background-image: linear-gradient(to bottom right, rgb(11, 89, 93),rgb(18, 19, 19));
+    background-image: linear-gradient(to bottom right, rgb(7, 59, 62),rgb(18, 19, 19));
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     overflow: auto;
-    color: lightcyan;
+    color: rgb(230, 252, 252);
     font-family: sans-serif;
 }
 
@@ -22,8 +22,8 @@ body {
       linear-gradient(
         to bottom, 
         rgba(0, 0, 0, .75),
-        rgba(122, 241, 241, .4), 
-        rgba(122, 241, 241, 0)
+        rgba(122, 255, 255, .4), 
+        rgba(122, 255, 255, 0)
       ) 0 100%;
       border-top: 0;
       border-bottom: 0;
@@ -68,7 +68,7 @@ footer {
     float: left;
     padding: 15px;
     text-align: center;
-    color: lightcyan;
+    color: rgb(230, 254, 254);
     font-size: large;
     width: 50%;
 }
