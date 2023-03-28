@@ -17,8 +17,11 @@
                         <defs>
                             <linearGradient id="myLinearGradient">
                                 <stop offset="1%" stop-color="black" />
-                                <stop offset="50%" stop-color="rgba(122, 255, 255, .4)" />
-                                <stop offset="95%" stop-color="rgba(122, 255, 255, 0)" />
+                                <stop offset="50%" stop-color="rgb(122, 210, 255)" />
+                                <stop offset="95%" stop-color="rgba(122, 210, 255, 0)" />
+                            </linearGradient>
+                            <linearGradient id="myFill">
+                                <stop stop-color="rgba(104, 220, 239, .1)" />
                             </linearGradient>
                             <filter id="f1" x="0" y="0" width="200%" height="200%">
                                 <feOffset result="offOut" in="SourceAlpha" dx="0" dy="5" />
@@ -37,7 +40,7 @@
                 <div style="width: 100px;float: left">
                     <svg class="button" width="90%" height="55px" onclick="location.href='home'">
                         <rect x="5%" y="10%" rx="10" ry="10" width=90% height=80%
-                        style="fill:rgba(104, 223, 239, .1);stroke:url(#myLinearGradient);stroke-width:4px;" />
+                        style="fill:url(#myFill);stroke:url(#myLinearGradient);stroke-width:4px;" />
                         <text x="50%" y="65%" text-anchor="middle" fill="rgb(224, 255, 255)" font-size="24" filter="url(#f1)">Home</text>
                     </svg>
                 </div>    

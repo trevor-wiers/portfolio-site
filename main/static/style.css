@@ -1,5 +1,5 @@
 html {
-    background-image: linear-gradient(to bottom right, rgb(7, 59, 62),rgb(18, 19, 19));
+    background-image: linear-gradient(to bottom right, rgb(29, 40, 44),rgb(12, 12, 12));
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -21,9 +21,9 @@ body {
     border-image: 
       linear-gradient(
         to bottom, 
-        rgba(0, 0, 0, .75),
-        rgba(122, 255, 255, .4), 
-        rgba(122, 255, 255, 0)
+        rgb(0, 0, 0),
+        rgb(108, 187, 227), 
+        rgba(122, 210, 255, 0)
       ) 0 100%;
       border-top: 0;
       border-bottom: 0;
