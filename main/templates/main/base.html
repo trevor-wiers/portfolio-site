@@ -23,6 +23,9 @@
                             <linearGradient id="myFill">
                                 <stop stop-color="rgba(104, 220, 239, .1)" />
                             </linearGradient>
+                            <linearGradient id="myTextFill">
+                                <stop stop-color="rgb(230, 252, 252)" />
+                            </linearGradient>
                             <filter id="f1" x="0" y="0" width="200%" height="200%">
                                 <feOffset result="offOut" in="SourceAlpha" dx="0" dy="5" />
                                 <feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
@@ -41,7 +44,7 @@
                     <svg class="button" width="90%" height="55px" onclick="location.href='home'">
                         <rect x="5%" y="10%" rx="10" ry="10" width=90% height=80%
                         style="fill:url(#myFill);stroke:url(#myLinearGradient);stroke-width:4px;" />
-                        <text x="50%" y="65%" text-anchor="middle" fill="rgb(230, 252, 252)" font-size="24" filter="url(#f1)">Home</text>
+                        <text x="50%" y="65%" text-anchor="middle" fill="url(#myTextFill)" font-size="24" filter="url(#f1)">Home</text>
                     </svg>
                 </div>    
             </div>
