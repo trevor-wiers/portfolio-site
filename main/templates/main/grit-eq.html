@@ -9,23 +9,36 @@
         <img src="static/grit-eq.png" style="width: 100%;height: auto;">
     </div>
     <div class="col-6">
-        <svg class="button" width="100px" height="50px" onclick="location.href='https://github.com/trevor-wiers/grit-eq'">
-            <rect x="5%" y="5%" rx="10" ry="10" width=90% height=90%
-            style="fill:url(#myFill);stroke:url(#myLinearGradient);stroke-width:4px;" />
-            <text x="50%" y="65%" text-anchor="middle" fill="url(#myTextFill)" font-size="25" filter="url(#f1)">Code</text>
-        </svg>
-        <p>
-            EQ with added saturation. Audio added or subtracted from original signal is saturated.<br>
-            <br>
-            Input gain<br>
-            Low Shelf w/ gain, frequency, and Q factor<br>
-            x4: Bell w/ gain, frequency, and Q factor<br>
-            High Shelf w/ gain, frequency, and Q factor<br>
-            Output gain<br>
-            Grit Factor, how many times the saturation is applied<br>
-            <br>
-            Offset - When enabled, instead of acting like normal EQ but with the added saturation, audio levels are not directly affected by gain. Selected frequencies are only saturated.
-        </p>
+        <div class="row">
+            <div style="width: 50%;float: left;text-align: center;">
+                <svg class="button" width="100px" height="50px" onclick="location.href='https://github.com/trevor-wiers/grit-eq'">
+                    <rect x="5%" y="5%" rx="10" ry="10" width=90% height=90%
+                    style="fill:url(#myFill);stroke:url(#myLinearGradient);stroke-width:4px;" />
+                    <text x="50%" y="65%" text-anchor="middle" fill="url(#myTextFill)" font-size="25" filter="url(#f1)">Code</text>
+                </svg>
+            </div>
+            <div style="width: 50%;float: left;text-align: center;">
+                <svg class="button" width="100px" height="50px" onclick="location.href='https://ttdynamics.gumroad.com/l/griteq'">
+                    <rect x="5%" y="5%" rx="10" ry="10" width=90% height=90%
+                    style="fill:url(#myFill);stroke:url(#myLinearGradient);stroke-width:4px;" />
+                    <text x="50%" y="65%" text-anchor="middle" fill="url(#myTextFill)" font-size="25" filter="url(#f1)">Store</text>
+                </svg>
+            </div>
+        </div>
+        <div class="row">
+            <p>
+                EQ with added saturation. Audio added or subtracted from original signal is saturated.<br>
+                <br>
+                Input gain<br>
+                Low Shelf w/ gain, frequency, and Q factor<br>
+                x4: Bell w/ gain, frequency, and Q factor<br>
+                High Shelf w/ gain, frequency, and Q factor<br>
+                Output gain<br>
+                Grit Factor, how many times the saturation is applied<br>
+                <br>
+                Offset - When enabled, instead of acting like normal EQ but with the added saturation, audio levels are not directly affected by gain. Selected frequencies are only saturated.
+            </p>
+        </div>
     </div>
 </div>
 {% endblock %}
