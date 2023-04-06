@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     overflow: auto;
-    color: rgb(230, 252, 252);
+    color: rgb(235, 250, 250);
     font-family: sans-serif;
 }
 
